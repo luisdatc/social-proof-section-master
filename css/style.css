@@ -91,16 +91,18 @@ body {
   .card--flex {
     display: flex;
     flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
   }
   .card--flex-text {
     width: 40%;
     margin: auto;
-    padding: 1rem 2rem 1rem 0rem;
+    padding: 1rem 0rem 1rem 0rem;
   }
   .card--flex-text h1 {
     text-align: left;
     padding: 2rem 0rem 0rem 0rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 2.5rem;
   }
   .card--flex-text p {
@@ -108,7 +110,8 @@ body {
     padding: 2rem 0;
   }
   .card--flex-stars {
-    width: 60%;
+    width: 80%;
+    align-self: center;
   }
   .card--flex-stars-line {
     display: flex;
@@ -124,7 +127,8 @@ body {
   .card--profile-all {
     display: flex;
     flex-direction: row;
-    padding-top: 2rem;
+    width: 80%;
+    margin: 0 auto;
   }
   .card--img-star {
     padding: 0 0.1rem;
